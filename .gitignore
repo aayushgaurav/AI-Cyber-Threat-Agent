@@ -1,0 +1,20 @@
+
+# Secrets and environment files
+.env
+cti-frontend/.env
+
+# Python virtual environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local database and downloaded data
+data/threats.db
+data/vulnerabilities.json
+
+# Frontend dependencies and build output
+cti-frontend/node_modules/
+cti-frontend/dist/
+
+# Logs
+*.log
